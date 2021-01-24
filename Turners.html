@@ -5,8 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Turners.css" />
     <title>Turner's</title>
+    <script>
+      window.watsonAssistantChatOptions = {
+        integrationID: "b31d293a-31b7-4f09-bd04-6c4f3e3644be", // The ID of this integration.
+        region: "au-syd", // The region your integration is hosted in.
+        serviceInstanceID: "2c8a1a38-ba84-4715-96e2-fad009a09743", // The ID of your service instance.
+        onLoad: function (instance) {
+          instance.render();
+        },
+      };
+      setTimeout(function () {
+        const t = document.createElement("script");
+        t.src =
+          "https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+        document.head.appendChild(t);
+      });
+    </script>
   </head>
   <body>
     <h1>Turner's Cars</h1>
+    <h3>Welcome to Turner's cars</h3>
   </body>
 </html>

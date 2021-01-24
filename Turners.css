@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to top right, rgb(7, 94, 145), rgb(42, 164, 250));
+}
