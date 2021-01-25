@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -6,5 +8,22 @@
 body {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to top right, rgb(7, 94, 145), rgb(42, 164, 250));
+  background-color: black;
+  color: white;
+  font-family: "Racing Sans One", cursive;
+  text-align: center;
+  /* background: linear-gradient(to top right, rgb(7, 94, 145), rgb(42, 164, 250)); */
+}
+
+#title {
+  font-size: 4rem;
+  text-decoration: underline;
+}
+.car {
+  width: 100vw;
+  height: auto;
+}
+
+p {
+  font-size: 2rem;
 }
